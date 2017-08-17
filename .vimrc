@@ -6,12 +6,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'vim-scripts/indentpython.vim'
-Plugin 'tpope/vim-fugitive.git'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plugin 'scrooloose/syntastic'
+"Plugin 'vim-scripts/indentpython.vim'
+"Plugin 'tpope/vim-fugitive.git'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'jistr/vim-nerdtree-tabs'
+"Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+"Plugin 'scrooloose/syntastic'
 Bundle 'Valloric/YouCompleteMe'
 
 call vundle#end()
