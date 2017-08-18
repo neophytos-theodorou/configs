@@ -52,4 +52,7 @@ let mapleader = ","
 " Open .vimrc file for editting
 nmap <leader>v :split $MYVIMRC<CR>
 " Run current python file
-nnoremap <silent> <leader>m :!clear;python %<CR>
+nnoremap <silent> <leader>r :!clear;python %<CR>
+" Run docktests in current python file
+nnoremap <silent> <leader>t :!clear;python -m doctest -v %<CR>
+
