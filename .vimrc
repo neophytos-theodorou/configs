@@ -8,6 +8,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 "Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-fugitive.git'
+Plugin 'sudar/vim-arduino-syntax'
+Plugin 'sudar/vim-arduino-snippets'
+Plugin 'sirver/ultisnips'
+Plugin 'sheerun/vim-polyglot'
 "Plugin 'scrooloose/nerdtree'
 "Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
@@ -41,7 +45,7 @@ let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
 let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
 let g:ycm_complete_in_comments = 1 " Completion in comments
 let g:ycm_complete_in_strings = 1 " Completion in string
-
+let g:ycm_global_ycm_extra_conf = '~/Workspace/Arduino/ymc/.ymc_extra_conf.py'
 " Source .vimrc after saving
 if has("autocmd")
 	autocmd bufwritepost .vimrc source $MYVIMRC
